@@ -115,14 +115,3 @@ Each mood maps to a curated YouTube playlist via URL.
 - Some YouTube links may change over time; update `playlist_links` in the code if needed.
 
 ---
-
-## 🧑‍💻 Author
-
-Developed by [Your Name]  
-Feel free to fork, contribute or suggest improvements via pull requests or issues!
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
