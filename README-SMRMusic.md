@@ -26,7 +26,7 @@ This creates a personalized, emotionally adaptive music experience by integratin
 
 ## 🧰 Technologies Used
 
-- **Python 3.7+**
+- **Python 3.10**
 - **Tkinter** – GUI framework
 - **OpenCV** – Webcam access and frame capture
 - **FER** – Facial emotion recognition
@@ -40,13 +40,9 @@ This creates a personalized, emotionally adaptive music experience by integratin
 ## 📦 Installation
 
 > **Requirements:**  
-> Python 3.7+ and internet access
+> Python 3.10 and internet access
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/smart-mood-music-generator.git
-   cd smart-mood-music-generator
-   ```
+1. **Clone the SMRMusic.py:**
 
 2. **Install dependencies:**
    ```bash
@@ -138,14 +134,3 @@ You can modify or update the `playlist_links` dictionary in the code to assign n
 - For best results, avoid running multiple detection modes simultaneously.
 
 ---
-
-## 🧑‍💻 Author
-
-Developed by [Your Name]  
-Feel free to fork, contribute or suggest improvements via pull requests or issues!
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
