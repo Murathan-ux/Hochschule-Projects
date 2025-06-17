@@ -37,12 +37,7 @@ This application offers a personalized listening experience and can be used for 
 
 ## 📦 Installation Guide
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/smart-mood-music.git
-cd smart-mood-music
-```
+### 1. Clone the SMRG_Music.py
 
 ### 2. Install Python dependencies
 
@@ -156,5 +151,3 @@ Moods are mapped to specific YouTube playlists in the code (`playlist_links` dic
 - [TextBlob NLP](https://textblob.readthedocs.io/)
 - [VLC Python Bindings](https://wiki.videolan.org/PythonBindings/)
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
-
----
