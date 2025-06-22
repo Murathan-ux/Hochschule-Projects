@@ -136,8 +136,8 @@ Moods are linked to curated YouTube playlists.
 
 ## 🔍 Example Use Cases
 
-- * User types "I'm chill"* → Detected mood: **Tired** → Tired music list begins.
-- * User says "I'm feeling very happy!"* → Detected mood: **Happy** → Hapy music list begins.
+- User types "I'm chill" → Detected mood: **Tired** → Tired music list begins.
+- User says "I'm feeling very happy!" → Detected mood: **Happy** → Hapy music list begins.
 - Webcam detects sad expression → Detected mood: **Sad** → Sad music list begins.
 
 ---
