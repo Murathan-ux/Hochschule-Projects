@@ -1,10 +1,10 @@
-# 🎶 Smart Mood-Responsive Music Generator (SMRG)
+# 🎶 Smart Mood-Responsive Music Generator 
 
 ## 🧠 Overview
 
-The **Smart Mood-Responsive Music Generator (SMRG)** is an AI-powered, Python-based desktop application that plays dynamically curated music from YouTube based on real-time emotional input. It offers a multi-modal mood detection system utilizing:
+The **Smart Mood-Responsive Music Generator** is a Python-based application that streams dynamically curated music from YouTube based on real-time emotional input. It offers a multi-modal mood detection system utilizing:
 
-- **Facial Emotion Recognition (FER)** via webcam (deep learning-based),
+- **Facial Emotion Recognition** via webcam (deep learning-based),
 - **Speech Emotion Recognition** via real-time voice transcription and sentiment analysis,
 - **Text-Based Mood Inference** with spelling correction, keyword detection, and sentiment analysis,
 - **Manual Mood Selection** for user-driven input.
@@ -29,31 +29,26 @@ Once the user's mood is inferred, the app selects and plays music from a pre-def
 
 ---
 
-## 📦 Installation Guide
+## 📦 User Guideline
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/smrg-music.git
-cd smrg-music
-```
-
-### 2. Install Python 3.10.11 (if not installed)
+### 1. Install Python 3.10.11
 
 - [Download Python 3.10.11](https://www.python.org/downloads/release/python-31011/)
 
-Ensure `python3.10` is added to your system PATH.
+Ensure `python3.10.11` is added to your system PATH as an interpreter in PhCharm.
 
-### 3. Create Virtual Environment (Optional but recommended)
+### 2. Create a Python file and a Virtual Environment in PhCharm
 
 ```bash
 python3.10 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### 4. Install Required Python Packages
+### 3. Install Required PyCharm Modules
 
-Each dependency and its tested version for Python 3.10.11:
+Each dependency and its version for Python 3.10.11:
+
+Type the prompts above to the PhCharm terminal
 
 ```bash
 pip install opencv-python==4.9.0.80
@@ -72,18 +67,11 @@ pip install tensorflow==2.10.0
 > - **Linux**: `sudo apt install portaudio19-dev`
 > - **macOS**: `brew install portaudio`
 
-### 5. Install VLC Media Player
-
-- Download from [VLC Website](https://www.videolan.org/vlc/)
-- Ensure it is added to your system PATH
-
 ---
 
-## ▶️ How to Run
+## 4. ▶️ Run the Code
 
-```bash
-python main.py
-```
+Clone the code in the Python file and run it 
 
 On execution, the GUI will appear with options for mood-based interaction.
 
@@ -148,9 +136,9 @@ Moods are linked to curated YouTube playlists.
 
 ## 🔍 Example Use Cases
 
-- *"I'm burned out"* → Detected mood: **Tired** → Calm music plays.
-- *"I'm excited!"* → Detected mood: **Happy** → Upbeat songs begin.
-- Webcam shows sad face → Detected mood: **Sad** → Soothing music selected.
+- * User types "I'm chill"* → Detected mood: **Tired** → Tired music list begins.
+- * User says "I'm feeling very happy!"* → Detected mood: **Happy** → Hapy music list begins.
+- Webcam detects sad expression → Detected mood: **Sad** → Sad music list begins.
 
 ---
 
