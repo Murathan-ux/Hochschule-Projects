@@ -382,4 +382,4 @@ class YouTubeMoodPlayer(ctk.CTk):
 
 if __name__ == "__main__":
     app = YouTubeMoodPlayer()
-    app.mainloop()
+    app.mainloop() 
