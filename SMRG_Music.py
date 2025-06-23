@@ -100,7 +100,7 @@ class YouTubeMoodPlayer(ctk.CTk):
         title = ctk.CTkLabel(self, text="MoodyTunes", font=ctk.CTkFont(size=32, weight="bold"), text_color="#D8DEE9", fg_color="#000000")
         title.pack(pady=(30, 0))
 
-        subtitle = ctk.CTkLabel(self, text="The world where your feelings make the music", font=ctk.CTkFont(size=16, weight="normal"), text_color="#D8DEE9", fg_color="#000000")
+        subtitle = ctk.CTkLabel(self, text="The world where your emotions make the music", font=ctk.CTkFont(size=16, weight="normal"), text_color="#D8DEE9", fg_color="#000000")
         subtitle.pack(pady=(0, 20))
 
         self.mood_var = ctk.StringVar(value="Select Mood")
